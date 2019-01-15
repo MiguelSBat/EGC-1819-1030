@@ -25,5 +25,8 @@ global:
   - PGPORT=5432
 notifications:
   email: false
+branches:
+  only:
+  - master
 
 
