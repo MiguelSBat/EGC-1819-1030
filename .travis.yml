@@ -14,7 +14,11 @@ before_script:
 script:
   - python manage.py makemigrations
   - python manage.py migrate
+<<<<<<< HEAD
   - python manage.py test
+=======
+  - python manage.py test mixnet
+>>>>>>> desarrollo
 sudo: required
 services:
   - docker
@@ -27,4 +31,10 @@ notifications:
   email: false
 branches:
   only:
+<<<<<<< HEAD
   - master
+=======
+  - master
+
+
+>>>>>>> desarrollo
